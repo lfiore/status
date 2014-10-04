@@ -1,12 +1,7 @@
-@font-face {
-	font-family: 'Open Sans';
-	src: url('OpenSans-Regular-webfont.woff');
-}
-
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Open Sans';
+	font-family: 'Arial';
 }
 
 body {
@@ -37,6 +32,7 @@ progress, progress::-webkit-progress-bar {
 	margin-bottom: 10px;
 	padding: 10px;
 	background-color: #FFF;
+	box-shadow: 0px 5px 5px -5px #BBB;
 }
 
 .box:last-child {
@@ -102,7 +98,8 @@ progress, progress::-webkit-progress-bar {
 }
 
 #footer, #footer a {
-	color: #BBB;
+	color: #777;
+	font-size: 12px;
 }
 
 #footer {

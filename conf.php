@@ -16,9 +16,9 @@ $services_list = [
 
 // add any servers you want to monitor below in one of the following formats
 // 'Server Name' => '0.0.0.0' (IP address)
-// 'Server Name' => 'domain.com' (domain name)
+// 'Server Name' => 'http://domain.com' (domain name)
 // keep in mind, if you use Cloudflare or the domain doesn't point directly to the server, you will need to use the actual server IP, not the domain name
 
 $servers_list = [
-	'Google' => 'http://www.google.co.uk/'
+	'Google' => 'http://google.co.uk'
 ];

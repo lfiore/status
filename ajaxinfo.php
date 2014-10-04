@@ -5,7 +5,7 @@ require('conf.php');
 // services
 foreach ($services_list as $name => $port)
 {
-	$services[] = (fsockopen('localhost', $port) ? true : false);
+	$services[] = (@fsockopen('localhost', $port) ? true : false);
 }
 
 // servers
