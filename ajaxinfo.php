@@ -14,7 +14,7 @@ if ($servers_list)
 	foreach ($servers_list as $name => $ip)
 	{
 		$results = exec('ping -c 1 -w 1 ' . $ip, $output);
-		$servers[] = ($results[1] === '' ? false : true);
+		$servers[] = ($results ? true : false);
 	}
 }
 
